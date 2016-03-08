@@ -463,7 +463,7 @@ h1, h2, p, a, span{
 					padding-top: 36px;
 				}
         .os-percentages li {
-					width: 67px;
+					width: 67.5px;
 					border-left: 1px solid #394264;
 					text-align: center;					
 					background: #50597b;
@@ -666,7 +666,7 @@ h1, h2, p, a, span{
 				height: 110px;
 			}
 				.left-container .social li {
-					width: 67px;
+					width: 67.5px;
 					height: 110px;										
 				}
 					.left-container .social li .icon {

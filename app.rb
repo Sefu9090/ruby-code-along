@@ -13,12 +13,13 @@ class App < Sinatra::Base
       email: "#{params["email"]}",
       bday: "#{params["bday"]}",
       quote: "#{params["quote"]}",
-      color: "#{params["color"]}",
+      color: "#{params['color']}",
       day: "#{params["day"]}",
       month: "#{params["month"]}",
       year: "#{params["year"]}",
       country: "#{params["country"]}",
-      city: "#{params["city"]}"
+      city: "#{params["city"]}",
+      wday: "#{params["wday"]}"
       }
     erb :dashboard
   end
